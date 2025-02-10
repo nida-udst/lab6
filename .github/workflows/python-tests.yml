@@ -20,3 +20,4 @@ jobs:
     - name: Run pytest tests
       run: |
         pytest --cov=app tests/
+        pytest -v
